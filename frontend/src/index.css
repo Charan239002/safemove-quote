@@ -1,6 +1,13 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: #f4f6f8;
   color: #1f2933;
+  min-height: 100vh;
+  background-color: #1e293b;
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.55)),
+    url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
